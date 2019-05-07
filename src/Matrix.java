@@ -10,4 +10,8 @@ public class Matrix<T> {
 	public int getColLen() {
 		return n_col;
 	}
+	
+	public void setValue(int row, int col, T value) {
+		_values[col][row] = value;
+	}
 }
