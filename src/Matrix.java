@@ -10,4 +10,8 @@ public class Matrix<T> {
 	public int getColLen() {
 		return n_col;
 	}
+	
+	public int getSize() {
+		return n_row * n_col;
+	}
 }
