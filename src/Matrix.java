@@ -14,4 +14,8 @@ public class Matrix<T> {
 	public int getSize() {
 		return n_row * n_col;
 	}
+
+	public void setValue(int row, int col, T value) {
+		_values[col][row] = value;
+	}
 }
