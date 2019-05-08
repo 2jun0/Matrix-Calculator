@@ -14,4 +14,6 @@ public class Matrix<T> {
 	public int getSize() {
 		return n_row * n_col;
 	}
+	
+	// aa
 }
